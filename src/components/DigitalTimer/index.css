@@ -1,0 +1,126 @@
+/* Write your CSS here */
+.digi-timer-container {
+  background-image: linear-gradient(to right #ffffff, #cffcf1, #defafe);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  box-shadow: 0px 4px 16px 0px;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.timer-container {
+  width: 70%;
+  padding-top: 30px;
+  display: flex;
+}
+
+.timer-elapsed-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  width: 300px;
+  height: 50px;
+}
+
+.time-container {
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  background-position: center;
+}
+
+.time {
+  color: #00d9f5;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+
+.status {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.start-pause-rest {
+  display: flex;
+}
+
+.start-pause-rest-btn-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.play-pause-rest-btn {
+  margin: 10px;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.play-pause-rest-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.play-pause-rest-txt {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.set-timer-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.set-timer-txt {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.timer-limit-container {
+  display: flex;
+  align-items: center;
+}
+
+.operation-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: #0f172a;
+}
+
+.count {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+}
